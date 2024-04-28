@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  background-color: #7ccab6;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  max-width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  min-width: 100%;
+  padding: 35px;
+  align-items: center;
+}
+.form-input {
+  font-size: 15px;
+  min-height: 40px;
+  border-radius: 5px;
+  border: none;
+  min-width: 230px;
+}
+.btn {
+  min-width: 100px;
+  min-height: 35px;
+  font-size: 15px;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  cursor: pointer;
+  color: black;
+}
+
+.submit,
+.edit {
+  background-color: rgb(233, 163, 71);
+}
+
+.delete {
+  background-color: rgb(206, 123, 123);
+}
+table {
+  background-color: azure;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: rgb(230, 126, 57);
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
